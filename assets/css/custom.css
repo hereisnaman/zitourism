@@ -50,9 +50,8 @@ section {
 }
 
 .row-services {
-    justify-content: center;
     margin-top: 40px;
-    background-color: #f9f9fb;
+    background-color: #fafafc;
 }
 
 .service-container {
@@ -84,4 +83,40 @@ section {
     background-size: cover;
     height: 80vh;
     border-radius: 0;
+}
+
+.row-destinations {
+    margin-top: 40px;
+}
+
+.destination-container {
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.destination-container .image-container {
+    cursor: pointer;
+}
+
+.destination-container h4 {
+    margin: 5px 0;
+}
+
+@media (max-width: 767px) {
+    .main-raised {
+        margin: -90px 10px 0px;
+    }
+
+    .page-header .title-brand {
+        margin-top: 40%;
+    }
+
+    .title-brand h1 {
+        font-size: 4em;
+    }
+
+    .fog-low {
+        margin-bottom: -40px;
+    }
 }
