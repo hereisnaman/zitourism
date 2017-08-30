@@ -77,14 +77,6 @@ section {
     border-radius: 0;
 }
 
-.contact-section {
-    background: url("/assets/img/login-image.jpg") #0b1011 no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    border-radius: 0;
-}
-
 .row-destinations {
     margin-top: 40px;
 }
@@ -101,6 +93,28 @@ section {
 
 .destination-container h4 {
     margin: 5px 0;
+}
+
+.section-dark {
+    border-radius: 0;
+}
+
+.section-contact {
+    border-radius: 0 0 12px 12px;
+    padding-top: 80px;
+}
+
+.row-contact {
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.row-contact .title {
+    color: #f5593d !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 @media (max-width: 767px) {
