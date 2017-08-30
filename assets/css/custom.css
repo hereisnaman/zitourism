@@ -40,7 +40,7 @@
     background: #FFFFFF;
     position: relative;
     z-index: 3;
-    padding: 40px 0;
+    padding: 40px 0 0;
 }
 
 section {
@@ -49,8 +49,32 @@ section {
     margin: 0;
 }
 
+.row-services {
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #f9f9fb;
+}
+
+.service-container {
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.service-container .image-container {
+    height: 140px;
+    cursor: pointer;
+}
+
+.service-container h4 {
+    margin: 5px 0;
+}
+
 .section-dark {
-    background: #0b1011;
+    border-radius: 0 0 12px 12px;
+}
+
+.page-header {
     border-radius: 0;
 }
 
