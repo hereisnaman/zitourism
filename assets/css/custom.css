@@ -117,6 +117,11 @@ section {
     margin-top: 20px;
 }
 
+.founder {
+    color: #f5593d !important;
+    font-weight: 500;
+}
+
 @media (max-width: 767px) {
     .main-raised {
         margin: -90px 10px 0px;
